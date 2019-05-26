@@ -3,93 +3,37 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <link rel="stylesheet" type="text/css" href="./styles.css"> 
     <title>Hemlata - Portfolio</title>
   </head>
-  <style>
-  .flex-container{
-    color:grey;
-    background-color: lightgreen;
-    display:flex;
-   flex-direction: row-reverse;
-  }
-  .flex-container > div{
-
-    height: 20px;
-    width:50px;
-    padding:10px;
-    margin:30px;
-    font-weight: bold;
-  }
-  .skills{
-    display: flex;
-    flex-direction: wrap;
-    color:lightseagreen;
-  }
-  .skills >div{
-    background-color: lightgoldenrodyellow;
-    height: 50px;
-    width:100px;
-    text-align: center;
-    margin:20px;
-    line-height: 50px;
-    font-weight: bold;
-  }
-  h1{
-    color:blue;
-   text-align: center;
-  }
-  .portfolio{
-    display:flex;
-    justify-content: space-around;
-    background-color: blanchedalmond;
-    color:cadetblue;
-    background-image: linear-gradient(to right, pink,lightgreen);
-  }
-  .portfolio > {
-    width: 100px;
-    /**color:cadetblue;**/
-    margin: 10px;
-  text-align: center;
- height: 80px;
-  font-size: 30px;   
-  }
-  </style>
   <body>
     
-    <div class="flex-container">
-      <div>Home</div>
-      <div>About</div>
-      <div>Contact</div>
-        
+    <div class="container">
+      <section class="home-content">
+        <nav class="navbar">
+          <ul>
+            <li>Home</li>
+            <li>Projects</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </nav>
+        <div class="home-intro">
+          <h1 class="greeting">Hello,</h1>
+          <h1 class="name">I am <span>Hemlata Bhundhoo</span>.</h1>
+          <p class="profession">Aspiring Frontend Developer</p>
+          <a class="hire-me-btn" href="#">HIRE ME</a>
+        </div>
+
+      </section>
+      <section>Projects</section>
+      <section>About</section>
+      <section>Contact</section>
     </div>
-    <h1>Skills</h1>
-    <div class="skills">
-      
-      <div>HTML</div>
-      <div>CSS</div>
-      <div>JAVASCRIPT</div>
-      <div>JSON</div>
-      <div>PHP</div>
-      <div>REACT</div>
-      <div>SQL</div>
-      <div>JQUERY</div>
-      <div>T-SQL</div>
-    </div>
-<h1>Portfolio</h1>
-    <div class="portfolio">
-      <div> Portfolio 1</div>
-      <div>Portfolio 2</div>
-      <div>Portfolio 3</div>
-    </div>
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    
+    
+
+
   </body>
 </html>

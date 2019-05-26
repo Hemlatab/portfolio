@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Lato|Nunito|PT+Serif|Roboto&display=swap');
+/** Root Styles **/
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+        /* font-family: 'PT Serif', serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Arvo', serif; */
+}
+.container{
+    
+  }
+  /** Styles for home section**/
+  .home-content{
+    background-color: #ff0088;
+    height: 85vh;
+    width:100vw;
+    background-image: url('./images/portfolio-bg.jpg');
+    background-size: cover;
+    background-position: top;
+    position: relative;
+    
+  }
+  .home-content::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 0, 136,0.6);
+   z-index: 1;
+  }
+  .navbar{
+      z-index: 99;
+      position: relative;
+    
+  }
+  .navbar ul{
+    margin: 0;
+    float: right;
+  }
+.navbar ul li{
+    list-style-type:none;
+    display: inline-block;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 18px;
+    
+}
+.home-intro{
+    position: relative;
+    z-index: 99;
+    color: #ffffff;
+    display: flex;
+    flex-flow: column wrap;
+    /* justify-content: center; */
+    width:100vw;
+    align-items: center;
+    padding: 60px 0;
+}
+.greeting,.name{
+    font-size: 45px;
+    margin-bottom: 0;
+    
+}
+
+.name span{
+    color: lightgreen;
+}
+.hire-me-btn{
+    text-decoration: none;
+    background-color: lightgreen;
+    color:#ff0088;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 2px 3px lightgrey;
+    
+}
