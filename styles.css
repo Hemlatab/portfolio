@@ -1,13 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo|Lato|Nunito|PT+Serif|Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|PT+Sans+Narrow|Roboto:400,900|Ubuntu&display=swap');
 /** Root Styles **/
+:root{
+    --rich-black:#050517;
+    --light-grey:#D3D5D7;
+    --rich-blue:#011627;
+    --baby-powder:#FDFFFC;
+    --blue-france:#3C91E6;
+    --awesome-pink:#FF206E;
+    --medium-ruby:#AA4465;
+}
 body{
     margin: 0;
     padding: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
-        /* font-family: 'PT Serif', serif;
-font-family: 'Nunito', sans-serif;
-font-family: 'Arvo', serif; */
+    /* font-family: 'PT Serif', serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Arvo', serif; */
+    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'PT Sans Narrow', sans-serif; */
+    /**font-family: 'Anton', sans-serif;**/
 }
 .container{
     
@@ -31,8 +45,15 @@ font-family: 'Arvo', serif; */
     top: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(255, 0, 136,0.6);
-   z-index: 1;
+    background-color:rgba(218, 62, 82, 0.7);
+    z-index: 1;
+  }
+  .logo{
+      float: left;
+      margin:20px;
+      text-decoration: none;
+      color:#ffffff;
+      font-family: 'Ubuntu', sans-serif;
   }
   .navbar{
       z-index: 99;
@@ -51,6 +72,10 @@ font-family: 'Arvo', serif; */
     font-size: 18px;
     
 }
+.navbar ul li a{
+    text-decoration: none;
+    color:#ffffff;
+}
 .home-intro{
     position: relative;
     z-index: 99;
@@ -65,18 +90,92 @@ font-family: 'Arvo', serif; */
 .greeting,.name{
     font-size: 45px;
     margin-bottom: 0;
-    
 }
 
 .name span{
-    color: lightgreen;
+    color: #F2E94E;
+    font-family: 'Roboto', sans-serif;
+    font-size: 50px;
+}
+.profession{
+    font-weight:lighter;
 }
 .hire-me-btn{
     text-decoration: none;
-    background-color: lightgreen;
-    color:#ff0088;
+    background-color: #F2E94E;
+    color:var(--rich-black);
     padding: 10px 20px;
     border-radius: 20px;
     box-shadow: 0 0 2px 3px lightgrey;
+}
+/**Styles for Project section **/
+.latest-project{
+    text-align: center;
+    color: #ff0088;
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+}
+.all-projects{
+    display: flex;
+    justify-content: space-around;
     
+}
+/** Styles for project card **/
+
+.card-container{
+    width: 300px;
+    box-shadow: 0 0 3px 3px var(--light-grey);
+    border-radius: 10px;
+    background-color: var(--baby-powder);
+    position: relative;
+}
+.card-image{
+    width:300px;
+    height: 150px;
+    background-color: var(--rich-blue);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-image img{
+    height: 150px;
+    width:300px;
+}
+.card-content{
+    text-align: center;
+    padding: 0 4px;
+    color:var(--rich-black);
+}
+.card-text{
+
+}
+.btn-link-live{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius:6px;
+    margin-bottom: 20px;
+    background-color: #F2E94E;
+    color:var(--rich-black);
+}
+.btn-link-github{
+    text-decoration: none;
+    padding: 13px 16px;
+    border-radius: 50%;
+    position: absolute;
+    top:36%;
+    right:10%;
+    background-color: var(--blue-france);
+    color:#ffffff;
+}
+/**Styles for About **/
+.about-me{
+    text-align: center;
+    color: #ff0088;
+    font-family: 'Anton', sans-serif;
+}
+
+/**Styles for Contact **/
+.contact-me{
+    text-align: center;
+    color: #ff0088;
+    font-family: 'Anton', sans-serif;
 }
