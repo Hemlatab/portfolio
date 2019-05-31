@@ -186,7 +186,7 @@ body{
     font-family: 'Anton', sans-serif;
     padding-top:40px;
 }
-.about-me p{
+.about-me, p{
     text-align:center;
 }
 /**Styles for Contact **/
@@ -198,4 +198,14 @@ body{
     text-align: center;
     color: #ff0088;
     font-family: 'Anton', sans-serif;
+}
+/** Styles for footer**/
+#footer{
+    text-align:center;
+}
+.icon-heart{
+    color:red;
+}
+.github-footer{
+    text-decoration:none;
 }
