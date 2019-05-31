@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Arvo|Lato|Nunito|PT+Serif|Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Anton|PT+Sans+Narrow|Roboto:400,900|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Anton|Lobster|PT+Sans+Narrow|Pacifico|Roboto:400,900|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Righteous&display=swap');
 /** Root Styles **/
 :root{
     --rich-black:#050517;
@@ -55,7 +57,7 @@ body{
       margin:20px;
       text-decoration: none;
       color:#ffffff;
-      font-family: 'Ubuntu', sans-serif;
+      font-family: 'Abril Fatface', cursive;
       font-size: 22px;
 
   }
@@ -191,17 +193,34 @@ body{
 }
 /**Styles for Contact **/
 .contact-container{
-    height: 60vh;
-    background-color: var(--baby-powder);
+    height: 40vh;
+    background-color: var(--baby-powder);   
 }
 .contact-me{
     text-align: center;
     color: #ff0088;
     font-family: 'Anton', sans-serif;
 }
+.know-more{
+    display:flex;
+    justify-content:center;
+}
+.email{
+    display:flex;
+    justify-content:center;
+}
 /** Styles for footer**/
+.footer-container{
+    padding:20px;
+    background-color:lightblue;
+}
 #footer{
     text-align:center;
+}
+.social{
+    list-style-type:none;
+    display:flex;
+    justify-content:center;
 }
 .icon-heart{
     color:red;
