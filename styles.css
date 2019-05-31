@@ -184,8 +184,11 @@ body{
     text-align: center;
     color: #ff0088;
     font-family: 'Anton', sans-serif;
+    padding-top:40px;
 }
-
+.about-me p{
+    text-align:center;
+}
 /**Styles for Contact **/
 .contact-container{
     height: 60vh;
