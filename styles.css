@@ -27,20 +27,18 @@ body{
 
   /** Styles for home section**/
   .home-content{
-    background-color: #00628B;
     height: 85vh;
     /* width:100vw;  */
     background-image: url('./images/portfolio-bg.jpg'); 
     background-size: cover;
     background-position: top;
     position: relative;
-    background: #00628B;
-     /* background: rgb(134,33,117);
-    background: linear-gradient(45deg, rgba(134,33,117,1) 55%, rgba(174,107,163,1) 100%); */
-    background: rgba(0, 98, 139,0.7);
-    background: linear-gradient(45deg, rgba(0, 98, 139,1) 3%, rgba(129,165,148,1) 100%);
+    /* background: #00628B; */
 }
-
+img .github-nav{
+    color:#E6E6DC;
+    width: 50px;
+}
   .home-content::before{
     position: absolute;
     content: "";
@@ -88,7 +86,7 @@ body{
 .home-intro{
     position: relative;
     z-index: 99;
-    color: #E6E6DC;
+    color: #81A594;
     display: flex;
     flex-flow: column wrap;
     /* justify-content: center; */
@@ -102,21 +100,22 @@ body{
 }
 
 .name span{
-    color: #81A594;
+    color: #E6E6DC;
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
 }
 .profession{
     font-weight:lighter;
     font-size: 20px;
+    color: #ffffff;
 }
 .hire-me-btn{
     text-decoration: none;
-    background-color: #81A594;
-    color:var(--rich-black);
+    background-color: #4820da;
+    color:var(--yellow-green);
     padding: 10px 20px;
     border-radius: 20px;
-    box-shadow: 0 0 2px 3px #D3D5D7;
+    box-shadow: 0 0 1px 2px #D3D5D7;
 }
 /**Styles for Project section **/
 .latest-project{
@@ -141,7 +140,7 @@ body{
     position: relative;
 }
 .card-image{
-    width:300px;
+    width:100px;
     height: 150px;
     background-color: var(--blue-orient);
     border-top-left-radius: 10px;
@@ -182,6 +181,10 @@ body{
 .about-container{
     height: 60vh;
     background-color: var(--yellow-green);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .about-me{
     text-align: center;
@@ -195,30 +198,27 @@ body{
 /**Styles for Contact **/
 .contact-container{
     height: 60vh;
-    background-color: var(--yellow-green); 
+    /* background-color: var(--yellow-green);  */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;  
+    justify-content: center; 
 }
 .contact-me{
     text-align: center;
-    color: #00628B;
+    color: #8b001d;
     font-family: 'Anton', sans-serif;
 }
 .know-more{
     display:flex;
     justify-content:center;
 }
-.email{
-    
+.email{  
     /* display:flex;
     justify-content:center; */
 }
-.email-icon{
-    height: 30px;
-    width: 30px;
-}
+ .email-icon{
+    margin-top: 1px;
+} 
 /** Styles for footer**/
 .footer-container{
     padding:20px;
@@ -241,4 +241,9 @@ ul .social{
 }
 .github-footer{
     text-decoration:none;
+}
+.github-link{
+    color:#E6E6DC;
+    text-decoration: none;
+    font-weight: bold;
 }
