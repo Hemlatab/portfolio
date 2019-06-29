@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
     <link rel="stylesheet" type="text/css" href="./styles.css"> 
     <link href="https://fonts.googleapis.com/css?family=Anton|PT+Sans+Narrow|Roboto|Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+    crossorigin="anonymous">
     <title>Hemlata - Portfolio</title>
   </head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -62,14 +64,12 @@
               </p>
               <a class="btn-link-live" href="#">Live View</a>
               <a class="btn-link-github" href="https://github.com/Hemlatab"><img src="./images/icon-github.svg"/></a>
-              <p></p>
             </div>
         </div>
 
         <div class="card-container">
           <div class="card-image">
-              <img src="/images/initab-card.png"/> 
-              
+              <img src="/images/initab-card.png"/>    
             </div>
             <div class="card-content">
               <h3 class="card-title">Portfolio 1</h3>
@@ -78,7 +78,6 @@
               </p>
               <a class="btn-link-live" href="#">Live View</a>
               <a class="btn-link-github" href="#"><img src="./images/icon-github.svg"/></a>
-              <p></p>
             </div>
         </div>
       </div>
@@ -91,26 +90,28 @@
         <p>You can view my code on GitHub.</p>
       </section>
 
-      <br />
+      <br/>
 
       <section class="contact-container">
         <h1 class="contact-me">Let's get in touch</h1>
-        <h2 class="know-more">Want to know more? Drop me a line</h2>
-        <p><span><img class="email-icon" src="./images/email.png"></span><span class="email">Email - hemlata.hbh@gmail.com</span></p>
+        <form action="https://formspree.io/hemlata.hbh@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Enter name">
+          <input type="email" name="_replyto" placeholder="Enter email">
+          <input type="submit" value="Send">
+        </form>
         
       </section>
 
       <div class="footer-container">
-      <section id="footer">
-        <ul class="social"> 
-            <li><a href="#"><img src="./images/linkedin.png"></a></li>
-            <li><a href="#"><img src="./images/codepen.png"></a></li>
-            <li><a href="https://github.com/Hemlatab" target="_blank"><img src="./images/github.png"></a></li>
-        </ul>
+          <ul class="social-links">
+            <li> <a href="https://github.com/Hemlatab" target="_blank"><i class="fab fa-github-alt fa-fw"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/hemlatabhundhoo/" target="_blank"></a><i class="fab fa-linkedin-in fa-fw"></i></li>
+            <li><a href="https://twitter.com/hmlata" target="_blank"></a><i class="fab fa-twitter fa-fw"></i></li>
+          </ul>
           <p class="footer-section">Made with <span class="icon-heart">&#9829;</span> by <a class="github-footer" href="https://github.com/Hemlatab"
-            target="_blank" class="github-link">Hemlata Bhundhoo</a></p>
+            target="_blank">Hemlata Bhundhoo</a></p>
           <p>Copyright &copy; 2019.</p>
-      </section>
+        </div>
     </div>
   </div>    
     

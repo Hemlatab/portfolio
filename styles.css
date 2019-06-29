@@ -29,11 +29,10 @@ body{
   .home-content{
     height: 85vh;
     /* width:100vw;  */
-    background-image: url('./images/portfolio-bg.jpg'); 
+    background-image: url('./images/work.svg'); 
     background-size: cover;
-    background-position: top;
+    background-position: center;
     position: relative;
-    /* background: #00628B; */
 }
 img .github-nav{
     color:#E6E6DC;
@@ -47,7 +46,7 @@ img .github-nav{
     top: 0;
     right: 0;
     bottom: 0;
-    background-color:rgba(0, 98, 139, 0.7);
+    /* background-color:rgba(0, 98, 139, 0.7); */
     z-index: 1;
   }
   .logo{
@@ -65,7 +64,6 @@ img .github-nav{
   .navbar{
       z-index: 99;
       position: relative;
-    
   }
   .navbar ul{
     margin: 0;
@@ -76,8 +74,7 @@ img .github-nav{
     display: inline-block;
     padding: 20px;
     color: #E6E6DC;
-    font-size: 18px;
-    
+    font-size: 18px;  
 }
 .navbar ul li a{
     text-decoration: none;
@@ -86,12 +83,12 @@ img .github-nav{
 .home-intro{
     position: relative;
     z-index: 99;
-    color: #81A594;
+    color: #555555;
     display: flex;
     flex-flow: column wrap;
     /* justify-content: center; */
     width:100%;
-    align-items: center;
+    align-items: flex-end;
     padding: 60px 0;
 }
 .greeting,.name{
@@ -192,13 +189,15 @@ img .github-nav{
     font-family: 'Anton', sans-serif;
     padding-top:40px;
 }
+.about-container p{
+    font-weight: lighter;
+}
 .about-me, p{
     text-align:center;
 }
 /**Styles for Contact **/
 .contact-container{
     height: 60vh;
-    /* background-color: var(--yellow-green);  */
     display: flex;
     flex-direction: column;
     justify-content: center; 
@@ -212,10 +211,6 @@ img .github-nav{
     display:flex;
     justify-content:center;
 }
-.email{  
-    /* display:flex;
-    justify-content:center; */
-}
  .email-icon{
     margin-top: 1px;
 } 
@@ -228,22 +223,49 @@ img .github-nav{
     text-align:center;
     color:#E6E6DC;
 }
-.social{
-    list-style-type:none;
-    display:flex;
+.social-links{
+    display: flex;
+    padding: 0;
     justify-content:center;
-}
+  } 
+  .social-links li{
+    list-style-type: none;
+    margin: 0 10px;
+  }
+  i.fa {
+    display: inline-block;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+  
+  }
 ul .social{
     padding-left: 10px;
 }
 .icon-heart{
     color:red;
 }
-.github-footer{
-    text-decoration:none;
-}
-.github-link{
-    color:#E6E6DC;
-    text-decoration: none;
-    font-weight: bold;
-}
+ul li .fa-github-alt{
+    color:white;
+    background-color: #3f5995;
+    padding:7px 5px;
+    border-radius: 50%
+  }
+  
+  ul li .fa-linkedin-in{
+    color:white;
+    background-color: #177faf;
+    padding:7px 5px;
+    border-radius: 50%
+  }
+  ul li .fa-twitter{
+    color:white;
+    background-color: #23aae9;
+    padding:7px 5px;
+    border-radius: 50%
+  }
+  .github-footer{
+      text-decoration: none;
+      font-weight:bold;
+      color:#FDFFFC;
+  }
