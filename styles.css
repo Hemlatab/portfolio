@@ -16,48 +16,25 @@ body{
     padding: 0;
     font-family: 'Lato', sans-serif;
     font-family: 'Roboto', sans-serif;
-    /* font-family: 'PT Serif', serif;
-    font-family: 'Nunito', sans-serif;
-    font-family: 'Arvo', serif; */
-    font-family: 'Ubuntu', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    /* font-family: 'PT Sans Narrow', sans-serif; */
-    /**font-family: 'Anton', sans-serif;**/
 }
 
-  /** Styles for home section**/
+  /** Styles for home section **/
   .home-content{
     height: 85vh;
-    /* width:100vw;  */
-    background-image: url('./images/portfolio-bg.jpg'); 
-    background-size: cover;
-    background-position: top;
-    position: relative;
-    /* background: #00628B; */
+    display: flex;
 }
 img .github-nav{
     color:#E6E6DC;
     width: 50px;
 }
-  .home-content::before{
-    position: absolute;
-    content: "";
-    width: 100%;
-    height: 100%;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    background-color:rgba(0, 98, 139, 0.7);
-    z-index: 1;
-  }
-  .logo{
+
+.logo{
       float: left;
       margin:20px;
       text-decoration: none;
       color:#E6E6DC;
       font-family: 'Abril Fatface', cursive;
       font-size: 22px;
-
   }
   .logo span{
       color: #81A594;
@@ -83,9 +60,8 @@ img .github-nav{
     text-decoration: none;
     color:#E6E6DC;
 }
-.home-intro{
-    position: relative;
-    z-index: 99;
+.home-col-1{
+    flex:1;
     color: #81A594;
     display: flex;
     flex-flow: column wrap;
@@ -93,6 +69,10 @@ img .github-nav{
     width:100%;
     align-items: center;
     padding: 60px 0;
+}
+.home-col-2{
+    flex:1;
+    background-image: url('images/')
 }
 .greeting,.name{
     font-size: 45px;
@@ -212,14 +192,8 @@ img .github-nav{
     display:flex;
     justify-content:center;
 }
-.email{  
-    /* display:flex;
-    justify-content:center; */
-}
- .email-icon{
-    margin-top: 1px;
-} 
-/** Styles for footer**/
+
+/** Styles for footer **/
 .footer-container{
     padding:20px;
     background-color:#81A594;
