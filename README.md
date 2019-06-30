@@ -2,11 +2,10 @@
 Portfolio Website
 
 [Live link](https://hemlatabhundhoo.co/)
-## Screenshots
+
 
 ## Technologies Used
 
-### Languages and Frameworks
 		* HTML
 		* CSS   
 
