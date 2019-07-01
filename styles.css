@@ -71,8 +71,8 @@ img .github-nav{
     padding: 60px 0;
 }
 .home-col-2{
-    flex:1;
-    background-image: url('images/')
+    flex:2.5;
+    background-image: url('images/work.svg');
 }
 .greeting,.name{
     font-size: 45px;
