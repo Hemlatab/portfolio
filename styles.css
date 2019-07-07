@@ -21,7 +21,7 @@ body{
   /** Styles for home section **/
   .home-content{
     height: 85vh;
-    display: flex;
+    background-image: url('images/background.jpg');
 }
 img .github-nav{
     color:#E6E6DC;
@@ -61,7 +61,6 @@ img .github-nav{
     color:#E6E6DC;
 }
 .home-col-1{
-    flex:1;
     color: #81A594;
     display: flex;
     flex-flow: column wrap;
@@ -69,10 +68,11 @@ img .github-nav{
     width:100%;
     align-items: center;
     padding: 60px 0;
+    /* background-image: url('images/background.jpg'); */
 }
 .home-col-2{
     flex:2.5;
-    background-image: url('images/work.svg');
+    /* background-image: url('images/background.jpg'); */
 }
 .greeting,.name{
     font-size: 45px;
@@ -141,7 +141,7 @@ img .github-nav{
     padding: 10px 20px;
     border-radius:6px;
     margin-bottom: 20px;
-    background-color: #81A594;
+    background-color: #0058a3;
     color:var(--yellow-green);
     font-weight: 200;
 }
