@@ -10,7 +10,6 @@
     --rich-blue:#011627;
     --baby-powder:#FDFFFC;
     --blue-orient: #00628B;
-    --green-blue: #81A594;
 }
 body{
     margin: 0;
@@ -182,6 +181,7 @@ body{
 }
 .about-me, p{
     text-align:center;
+    line-height: 2;
 }
 
 /**Styles for Contact **/
@@ -202,10 +202,30 @@ body{
     justify-content:center;
 }
 
+/** Styles for form **/
+.form{
+    text-align: center;
+}
+
+input[type=text]{
+    font-size: 16px;
+}
+
+input[type=email]{
+    font-size: 16px;
+}
+
+input[type=submit]{
+    padding: 10px;
+    color: #F7F7FF;
+    background-color: #1d58a3;
+    border-radius: 10px;
+    font-size: 16px;
+}
 /** Styles for footer **/
 .footer-container{
     padding:20px;
-    background-color:#81A594;
+    background-color: #f7f7fe;
 }
 #footer{
     text-align:center;
@@ -255,5 +275,5 @@ ul li .fa-github-alt{
   .github-footer{
       text-decoration: none;
       font-weight:bold;
-      color:#FDFFFC;
+      color:red;
   }
