@@ -4,12 +4,13 @@
 @import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Righteous&display=swap');
 /** Root Styles **/
 :root{
+    --electric-violet:#8f00ff;
+    --electric-blue:#0892d0;
     --light-grey:#D3D5D7;
     --rich-blue:#011627;
     --baby-powder:#FDFFFC;
     --blue-orient: #00628B;
     --green-blue: #81A594;
-    --yellow-green: #E6E6DC;
 }
 body{
     margin: 0;
@@ -25,9 +26,8 @@ body{
     background-position: center;
     background-image: url('images/background.jpg');
 }
-img .github-nav{
-    color:#E6E6DC;
-    width: 50px;
+.fab fa-github{
+    font-size: 10px;
 }
 
 .logo{
@@ -39,16 +39,19 @@ img .github-nav{
       font-size: 22px;
   }
   .logo span{
-      color: #81A594;
+      color:#00ffff;
   }
+
   .navbar{
       z-index: 99;
       position: relative;
   }
+
   .navbar ul{
     margin: 0;
     float: right;
   }
+
 .navbar ul li{
     list-style-type:none;
     display: inline-block;
@@ -69,15 +72,16 @@ img .github-nav{
     width:100%;
     align-items: center;
     padding: 60px 0;
-    /* background-image: url('images/background.jpg'); */
 }
+
 .home-col-2{
     flex:2.5;
-    /* background-image: url('images/background.jpg'); */
 }
+
 .greeting,.name{
     font-size: 45px;
     margin-bottom: 0;
+    color:	#00ffff;
 }
 
 .name span{
@@ -117,7 +121,7 @@ img .github-nav{
     width: 300px;
     box-shadow: 0 0 3px 3px var(--light-grey);
     border-radius: 10px;
-    background-color: var(--yellow-green);
+    background-color: #F7F7FF;
     position: relative;
 }
 .card-image{
@@ -143,7 +147,7 @@ img .github-nav{
     border-radius:6px;
     margin-bottom: 20px;
     background-color: #0058a3;
-    color:var(--yellow-green);
+    color:#F2F3F4;
     font-weight: 200;
 }
 .btn-link-github{
@@ -179,7 +183,9 @@ img .github-nav{
 .about-me, p{
     text-align:center;
 }
+
 /**Styles for Contact **/
+
 .contact-container{
     height: 60vh;
     display: flex;
