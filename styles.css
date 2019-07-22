@@ -246,32 +246,46 @@ body{
     justify-content:center;
 }
 
-/** Styles for form **/
+/** Styles for form get in touch **/
 .form{
     text-align: center;
 }
 
 input[type=text]{
     font-size: 16px;
+    width:30%;
+    padding: 10px;
 }
 
 input[type=email]{
     font-size: 16px;
+    width:30%;
+    padding: 10px;
 }
 
-input[type=submit]{
+.input-field{
+    width: 100%;
+    text-align: center;
+}
+textarea{
+    width:31%;
+    padding: 10px;
+}
+.submit{
     padding: 8px;
     color: #F7F7FF;
     background-color: #1d58a3;
     border-radius: 10px;
-    font-size: 16px;
+    font-size: 18px;
     margin-top:0 auto;
 }
 
-input[type=submit]:hover{
+.submit:hover{
     transform: scale(1.03);
 }
+
 /** Styles for footer **/
+
 .footer-container{
     padding:20px;
     background-color: #f7f7fe;
