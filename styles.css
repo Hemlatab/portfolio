@@ -295,15 +295,17 @@ input[type=email]{
     margin-bottom: 10px;
 }
 
-.icons{
-    padding: 10px;  
+.icons{  
     min-width: 50px; 
     text-align: center;
 }
 
+.far{
+    font-size: 30px;
+    margin: 10px;
+}
 .input-field{
     width: 100%;
-    padding: 10px;
     text-align: center;
 }
 
