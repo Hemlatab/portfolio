@@ -25,6 +25,7 @@ body{
     background-position: center;
     background-image: url('images/background.jpg');
 }
+
 .fab fa-github{
     font-size: 10px;
 }
@@ -37,6 +38,7 @@ body{
       font-family: 'Abril Fatface', cursive;
       font-size: 22px;
   }
+
   .logo span{
       color:#00ffff;
   }
@@ -58,6 +60,7 @@ body{
     color: #E6E6DC;
     font-size: 18px;  
 }
+
 .navbar ul li a{
     text-decoration: none;
     color:#E6E6DC;
@@ -75,6 +78,7 @@ body{
     opacity: 0.5;
     color:#00628B;
 }
+
 .home-col-1{
     color: #81A594;
     display: flex;
@@ -100,11 +104,13 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 50px;
 }
+
 .profession{
     font-weight:lighter;
     font-size: 20px;
     color: #ffffff;
 }
+
 .hire-me-btn{
     text-decoration: none;
     background-color: #4820da;
@@ -113,11 +119,13 @@ body{
     border-radius: 20px;
     box-shadow: 0 0 1px 2px #D3D5D7;
 }
+
 .hire-me-btn:hover{ 
     transform: scale(1.03);
 }
 
 /**Styles for Project section **/
+
 .latest-project{
     text-align: center;
     color: #00628B;
@@ -125,11 +133,13 @@ body{
     font-family: 'Anton', sans-serif;
     padding: 20px 0;
 }
+
 .all-projects{
     display: flex;
     justify-content: space-around;
     
 }
+
 /** Styles for project card **/
 
 .card-container{
@@ -143,6 +153,7 @@ body{
     -moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
     box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.4);
 }
+
 .card-container:hover{
     transform: scale(1.01);
     -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
@@ -156,10 +167,12 @@ body{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
 }
+
 .card-image img{
     height: 150px;
     width:300px;
 }
+
 .card-content{
     text-align: center;
     padding: 0 4px;
@@ -179,6 +192,7 @@ body{
 .btn-link-live:hover{
   transform: scale(1);
 }
+
 .btn-link-github{
     text-decoration: none;
     position: absolute;
@@ -188,6 +202,7 @@ body{
     border-radius: 50%;
     color:#F2F3F4;
 }
+
 .btn-link-github img{
     height: 40px;
     width: 40px;
@@ -197,6 +212,7 @@ body{
     font-size: 0.8rem;
     color: #404040;
 }
+
 .tags span{
     text-align: center;
     margin: 0 5px;
@@ -204,7 +220,9 @@ body{
     border-radius: 6px;
     background-color: rgb(0,0,0,0.1);
 }
+
 /**Styles for About **/
+
 .about-container{
     height: 60vh;
     background-color: var(--yellow-green);
@@ -213,15 +231,18 @@ body{
     justify-content: center;
     align-items: center;
 }
+
 .about-me{
     text-align: center;
     color: #00628B;
     font-family: 'Anton', sans-serif;
     padding-top:40px;
 }
+
 .about-container p{
     font-weight: lighter;
 }
+
 .about-me, p{
     text-align:center;
     line-height: 2;
@@ -236,11 +257,13 @@ body{
     flex-direction: column;
     justify-content: center; 
 }
+
 .contact-me{
     text-align: center;
     color: #8b001d;
     font-family: 'Anton', sans-serif;
 }
+
 .know-more{
     display:flex;
     justify-content:center;
@@ -263,21 +286,38 @@ input[type=email]{
     padding: 10px;
 }
 
-.input-field{
+.input-icons i{
+    position: absolute;
+}
+
+.input-icons{
     width: 100%;
+    margin-bottom: 10px;
+}
+
+.icons{
+    padding: 10px;  
+    min-width: 50px; 
     text-align: center;
 }
+
+.input-field{
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
 textarea{
     width:31%;
     padding: 10px;
 }
+
 .submit{
-    padding: 8px;
+    padding: 10px;
     color: #F7F7FF;
     background-color: #1d58a3;
     border-radius: 10px;
-    font-size: 18px;
-    margin-top:0 auto;
+    font-size: 14px;
 }
 
 .submit:hover{
@@ -356,7 +396,7 @@ ul li .fa-github-alt{
     }
 
     .card-image{
-       
+       width: 100%;
     }
 
     .name{
