@@ -181,6 +181,12 @@ body{
     color:var(--blue-orient);
 }
 
+.card-text{
+    font-size:12px;
+    margin: 20px;
+    text-align: left;
+}
+
 .btn-link-live{
     text-decoration: none;
     padding: 10px 20px;
