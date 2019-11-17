@@ -241,10 +241,11 @@ body{
 }
 
 .about-me{
-    text-align: center;
+    text-align: left;
     color: #00628B;
     font-family: 'Anton', sans-serif;
-    padding-top:40px;
+    padding:10px;
+    margin: 10px 10px 30px 30px;
 }
 
 .about-container p{
@@ -256,7 +257,12 @@ body{
     line-height: 2;
     font-size: 18px;
 }
-
+.fa-fw{
+    color:white;
+    background-color: #3f5995;
+    padding:7px 5px;
+    border-radius: 50%
+}
 /**Styles for Contact **/
 
 #contact{
@@ -309,8 +315,9 @@ input[type=email]{
 }
 
 .far{
-    font-size: 30px;
+    font-size: 20px;
     margin: 10px;
+    color:darkgrey;
 }
 .input-field{
     width: 100%;
